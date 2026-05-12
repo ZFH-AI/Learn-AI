@@ -68,7 +68,9 @@ Scalar Unit 指令分发，理想情况下Scalar 应能及时将指令分发到�
 
 >> step 1  采集Profiling数据
          |-- 工具：msprof或者cannsim仿真
+         |
          |-- 关键命令：msprof --application=./your_op --output=./prof_data
+         |
          |-- 输出：各流水线耗时（含Scalar）、instr_popped_log.dump文件等
 
 >> step 2 判断Scalar耗时占比
@@ -87,10 +89,10 @@ Scalar Unit 指令分发，理想情况下Scalar 应能及时将指令分发到�
                |-- 失败率高 → 分支预测问题（进入Step 4c）
 
 >> step 4 针对性优化
-        |-- 4a: 寄存器Spill --> 分析Load和Store变多的原因
-        |
-        |-- 4b: I-Cache Miss → icache预取；精简代码体量
-        |
-        |--  4c: 分支预测 → 循环主尾块分离；显式for循环
+         |-- 4a: 寄存器Spill --> 分析Load和Store变多的原因
+         |
+         |-- 4b: I-Cache Miss → icache预取；精简代码体量
+         |
+         |--  4c: 分支预测 → 循环主尾块分离；显式for循环
 
 ```
