@@ -1,3 +1,5 @@
+https://www.runoob.com/ai-agent/langgraph-quick-start.html
+
 # LangGraph 是什么
 LangGraph是由LangChain团队开发的一个低层级Agent编排框架，专为构建状态、长时间运行的AI工作流而设计。与传统的线性LLM不同LangGraph将工作流建模为有向图
 
