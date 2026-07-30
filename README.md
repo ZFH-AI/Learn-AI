@@ -13,6 +13,7 @@ record learn ai
 
 
 一、大学课程与讲座
+
 斯坦福 CS25: Transformers United V5 (2025) 
 https://web.stanford.edu/class/cs25/
 斯坦福 CS224N: NLP with Deep Learning 
@@ -23,11 +24,14 @@ https://stanford-cs324.github.io/winter2022/
 https://phontron.com/class/anlp2024/lectures/
 普林斯顿 COS 597G: Understanding LLMs
 https://www.cs.princeton.edu/courses/archive/fall22/cos597G/
+
 二、在线课程与教程
 DeepLearning.AI《Generative AI for Everyone》（吴恩达） 
+
 https://www.deeplearning.ai/courses/generative-ai-for-everyone/
 LLM 系列课程（吴恩达）
 https://learn.deeplearning.ai/
+
 三、GitHub 开源项目
 awesome-LLM-resources（全球最全 LLM 资源汇总） 
 https://github.com/wangrongsheng/awesome-LLM-resources
